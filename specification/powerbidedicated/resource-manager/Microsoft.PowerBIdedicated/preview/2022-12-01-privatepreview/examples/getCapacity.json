@@ -3,7 +3,7 @@
     "subscriptionId": "613192d7-503f-477a-9cfe-4efc3ee2bd60",
     "resourceGroupName": "TestRG",
     "dedicatedCapacityName": "azsdktest",
-    "api-version": "2021-01-01"
+    "api-version": "2022-12-01-privatepreview"
   },
   "responses": {
     "200": {
@@ -29,10 +29,10 @@
         "systemData": {
           "createdBy": "user1",
           "createdByType": "User",
-          "createdAt": "2021-01-01T00:00:19.1234567Z",
+          "createdAt": "2022-12-01-privatepreviewT00:00:19.1234567Z",
           "lastModifiedBy": "user2",
           "lastModifiedByType": "User",
-          "lastModifiedAt": "2021-01-01T00:00:19.1234567Z"
+          "lastModifiedAt": "2022-12-01-privatepreviewT00:00:19.1234567Z"
         }
       }
     }

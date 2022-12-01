@@ -3,7 +3,7 @@
     "subscriptionId": "613192d7-503f-477a-9cfe-4efc3ee2bd60",
     "resourceGroupName": "TestRG",
     "vcoreName": "testvcore",
-    "api-version": "2021-01-01",
+    "api-version": "2022-12-01-privatepreview",
     "vCoreParameters": {
       "sku": {
         "name": "AutoScale",
@@ -44,10 +44,10 @@
         "systemData": {
           "createdBy": "app1",
           "createdByType": "Application",
-          "createdAt": "2021-01-01T00:00:19.1234567Z",
+          "createdAt": "2022-12-01-privatepreviewT00:00:19.1234567Z",
           "lastModifiedBy": "app1",
           "lastModifiedByType": "Application",
-          "lastModifiedAt": "2021-01-01T00:00:19.1234567Z"
+          "lastModifiedAt": "2022-12-01-privatepreviewT00:00:19.1234567Z"
         }
       }
     }
