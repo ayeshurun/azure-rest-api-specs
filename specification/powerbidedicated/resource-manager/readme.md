@@ -4,10 +4,10 @@
 
 This is the AutoRest configuration file for PowerBIDedicated.
 
-
-
 ---
+
 ## Getting Started
+
 To build the SDK for PowerBIDedicated, simply [Install AutoRest](https://aka.ms/autorest/install) and in this folder, run:
 
 > `autorest`
@@ -15,21 +15,30 @@ To build the SDK for PowerBIDedicated, simply [Install AutoRest](https://aka.ms/
 To see additional help and options, run:
 
 > `autorest --help`
+
 ---
 
 ## Configuration
 
-
-
 ### Basic Information
+
 These are the global settings for the PowerBIDedicated API.
 
 ``` yaml
 openapi-type: arm
-tag: package-2021-01-01
+tag: package-preview-2022-12
 ```
 
 
+### Tag: package-preview-2022-12
+
+These settings apply only when `--tag=package-preview-2022-12` is specified on the command line.
+
+```yaml $(tag) == 'package-preview-2022-12'
+input-file:
+  - Microsoft.PowerBIdedicated/preview/2022-12-01-privatepreview/autoScaleVCores.json
+  - Microsoft.PowerBIdedicated/preview/2022-12-01-privatepreview/powerbidedicated.json
+```
 ### Tag: package-2021-01-01
 
 These settings apply only when `--tag=package-2021-01-01` is specified on the command line.
@@ -50,8 +59,8 @@ input-file:
 ```
 
 ---
-# Code Generation
 
+# Code Generation
 
 ## Swagger to SDK
 
@@ -138,8 +147,3 @@ generate-interface: true
 ## Python
 
 See configuration in [readme.python.md](./readme.python.md)
-
-
-
-
-
